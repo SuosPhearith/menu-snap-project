@@ -23,6 +23,7 @@ export class ArticlesService {
   }
 
   update(id: number, updateArticleDto: UpdateArticleDto) {
+    console.log(updateArticleDto);
     return `This action updates a #${id} article`;
   }
 

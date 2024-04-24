@@ -1,0 +1,108 @@
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::>> Story <<:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+I want to create a food search system for restaurants where customers can simply scan a QR code to view the menu.
+
+For example, let's consider a restaurant that offers a variety of dishes. Traditionally, customers would need a physical menu or
+ rely on staff to take their orders. However, I aim to simplify this process for both restaurants and customers.
+
+My idea involves providing a service where restaurants can create an account and easily manage their menu. They can list their
+foods along with images, prices, discounts, and other details. This platform allows them to update or delete items as needed.
+Additionally, they can set the privacy settings for their restaurant, choosing whether to display their menu to the public or
+only to customers within their establishment.
+
+Moreover, customers can conveniently place their orders using their smartphones while inside the restaurant premises. It creates a
+more seamless and efficient ordering experience, eliminating the need for manual order-taking.
+
+Optionally, I plan to incorporate a table booking feature into the system. This would allow customers to reserve tables in advance,
+enhancing the overall dining experience.
+
+The benefits of this system are manifold. For restaurants, it serves as a promotional tool, as their establishments become easily
+discoverable to potential customers. For patrons, it simplifies the ordering process and provides real-time information on table
+availability.
+
+Overall, my goal is to streamline operations for both restaurants and customers, making dining experiences more enjoyable and efficient.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::>><<::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::>> Function <<::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Role in this project:
+1, Admin
+2, Analyst
+3, Restaurateur
+4, User
+
+functionality:
+++ user gest
+1, view home page
+2, search : advance search search by
+	- name of restaurant
+	- name of food
+	- filter by price
+	- filter by category	
+3, view menu food in the restaurant
+4, view restaurant open or close
+5, pre-order foods
+6, view avialable sit
+7, can booking by phone number
+++ user : can review but only but can access reveiew only go to the restuarant
+++ Restaurateur 
+1, create an account role Restaurateur by via approval from admin 
+2, create listing food (cor feature)
+3, set working time
+4, set sit is avialable or not (I think it required real time)
+5, can generate QR code for scan to view food
+6, setting set restaurant to public or private
+7, promote restaurant (need to pay for promote)
+8, can generate QR code for scan to review
+++ Analyst
+1, watch all data in system like how many account watch how many account register
+2, generate report
+3, export to exel
+++ Admin
+1, can manage cand create user, Restaurateur, Analyst
+2, can approval to Restaurateur to register account
+3, can view dashboard
+4, can manage hold website 
+5, manage promotion restaurant
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::>><<::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+1. Auth fuction
++ normal user
+- authentication
+- authorization
+- me
+- change password
+- update profile
+- delete account
++ admin
+- reset password
+- delete account
+- disactivate account
+- create new account
+2. manganer
+2.1 dashboard
+2.2 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
